@@ -1,0 +1,199 @@
+# Query: btn btn-sm btn-primary
+# ContextLines: 1
+
+55 results - 22 files
+
+resources\views\borrow\borrow-list.blade.php:
+   99                                  <div class="col-sm-5 mb-2 col-dm-2 col-l-2">
+  100:                                     <a type="button" class="ui button mini primary" data-bs-toggle="modal"
+  101:                                         data-bs-target="#addForm" class="ui button mini primary"><span
+  102                                              class="mdi mdi-plus"></span> Add
+  103                                          new</a>
+  104:                                     <a href="{{route('product.form')}}" class="ui button mini primary"><span
+  105                                          class="mdi mdi-plus"></span> Add
+
+  492                                                                                                  disabled
+  493:                                                                                             @endif class="ui button mini primary text-end d-block ms-auto mt-2">
+  494                                                                                                   <span class="mdi mdi-send"></span> Send</button>
+
+  949                                                                                                  disabled
+  950:                                                                                             @endif class="ui button mini primary text-end d-block ms-auto mt-2">
+  951                                                                                                   <span class="mdi mdi-send"></span> Send</button>
+
+resources\views\borrow\overdraft.blade.php:
+   99                                  <div class="col-sm-5 mb-2 col-dm-2 col-l-2">
+  100:                                     <a type="button" class="ui button mini primary" data-bs-toggle="modal"
+  101:                                         data-bs-target="#addForm" class="ui button mini primary"><span
+  102                                              class="mdi mdi-plus"></span> Add
+  103                                          new</a>
+  104:                                     <a href="{{route('product.form')}}" class="ui button mini primary"><span
+  105                                          class="mdi mdi-plus"></span> Add
+
+  573                                                                                                  disabled
+  574:                                                                                             @endif class="ui button mini primary text-end d-block ms-auto mt-2">
+  575                                                                                                  <span class="mdi mdi-send"></span> Send</button>
+
+resources\views\borrow\return.blade.php:
+   99                                  <div class="col-sm-5 mb-2 col-dm-2 col-l-2">
+  100:                                     <a type="button" class="ui button mini primary" data-bs-toggle="modal"
+  101:                                         data-bs-target="#addForm" class="ui button mini primary"><span
+  102                                              class="mdi mdi-plus"></span> Add
+  103                                          new</a>
+  104:                                     <a href="{{route('product.form')}}" class="ui button mini primary"><span
+  105                                          class="mdi mdi-plus"></span> Add
+
+  568                                                                                                  disabled
+  569:                                                                                             @endif class="ui button mini primary text-end d-block ms-auto mt-2">
+  570                                                                                                  <span class="mdi mdi-send"></span> Send</button>
+
+resources\views\category\list.blade.php:
+  70                                      <div class="col-sm-5 mb-2 col-dm-2 col-l-2">
+  71:                                         <a type="button" class="ui button mini primary" data-bs-toggle="modal"
+  72:                                             data-bs-target="#addCategory" class="ui button mini primary">
+  73                                              <span class="mdi mdi-plus"></span> {{__('nav.addNew')}}</a>
+
+resources\views\department\list.blade.php:
+  69                                  <div class="col-sm-5 mb-2 col-dm-2 col-l-2">
+  70:                                     <a type="button" class="ui button mini primary" data-bs-toggle="modal"
+  71:                                         data-bs-target="#addForm" class="ui button mini primary"><span
+  72                                              class="mdi mdi-plus"></span> {{__("nav.addNew")}}
+
+resources\views\pages\forms\basic_elements.html:
+  643                        <div class="input-group-append">
+  644:                         <button class="ui button mini primary" type="button">Search</button>
+  645                        </div>
+
+resources\views\position\list.blade.php:
+  69                                      <div class="col-sm-5 mb-2 col-dm-2 col-l-2">
+  70:                                         <a type="button" class="ui button mini primary" data-bs-toggle="modal"
+  71:                                             data-bs-target="#addForm" class="ui button mini primary"><span
+  72                                                  class="mdi mdi-plus"></span> {{__("nav.addNew")}}</a>
+
+resources\views\pr\list.blade.php:
+  105                                      <div class="col-6">
+  106:                                         <a href="{{route('purchase.request')}}" class="ui button mini primary"><span
+  107                                              class="mdi mdi-plus"></span> {{__('nav.addNew')}}</a>
+
+  537                                                                                                  disabled
+  538:                                                                                             @endif class="ui button mini primary text-end d-block ms-auto mt-2">
+  539                                                                                                  <span class="mdi mdi-content-save-check"></span> {{__('nav.submit')}}</button>
+
+resources\views\pr\received-list.blade.php:
+  105                                      <div class="col-6">
+  106:                                         {{-- <a href="{{route('purchase.request')}}" class="ui button mini primary"><span
+  107                                              class="mdi mdi-plus"></span> {{__('nav.addNew')}}</a> --}}
+
+  542                                                                                                  disabled
+  543:                                                                                             @endif class="ui button mini primary text-end d-block ms-auto mt-2">
+  544                                                                                                  <span class="mdi mdi-content-save-check"></span> {{__('nav.submit')}}</button>
+
+resources\views\product\given.blade.php:
+  112                                      <div class="col-6">
+  113:                                         {{-- <a href="{{route('product.form')}}" class="ui button mini primary"><span
+  114                                              class="mdi mdi-plus"></span> Add new</a> --}}
+
+resources\views\product\list-outstock.blade.php:
+  106                                      <div class="col-6">
+  107:                                         {{-- <a href="{{route('product.form')}}" class="ui button mini primary"><span
+  108                                              class="mdi mdi-plus"></span> Add new</a> --}}
+
+resources\views\product\list.blade.php:
+  106                                      <div class="col-6">
+  107:                                         <a href="{{route('product.form')}}" class="ui button mini primary"><span
+  108                                              class="mdi mdi-plus"></span> {{__('nav.addNew')}}</a>
+
+  511                                                                                              disabled
+  512:                                                                                         @endif class="ui button mini primary text-end d-block ms-auto mt-2">
+  513                                                                                              <span class="mdi mdi-content-save-check"></span> {{__('nav.submit')}}</button>
+
+resources\views\product\returned.blade copy.php:
+  112                                      <div class="col-6">
+  113:                                         {{-- <a href="{{route('product.form')}}" class="ui button mini primary"><span
+  114                                              class="mdi mdi-plus"></span> Add new</a> --}}
+
+  671                                                                                                  disabled
+  672:                                                                                             @endif class="ui button mini primary text-end d-block ms-auto mt-2">
+  673                                                                                                   <span class="mdi mdi-send"></span> Send</button>
+
+resources\views\product\returned.blade.php:
+  112                                      <div class="col-6">
+  113:                                         {{-- <a href="{{route('product.form')}}" class="ui button mini primary"><span
+  114                                              class="mdi mdi-plus"></span> Add new</a> --}}
+
+resources\views\product\statistic.blade.php:
+  92                                      <div class="col-6">
+  93:                                         {{-- <a href="{{route('product.form')}}" class="ui button mini primary"><span
+  94                                              class="mdi mdi-plus"></span> Add new</a> --}}
+
+resources\views\request\accepted.blade.php:
+   99                                  <div class="col-sm-5 mb-2 col-dm-2 col-l-2">
+  100:                                     <a type="button" class="ui button mini primary" data-bs-toggle="modal"
+  101:                                         data-bs-target="#addForm" class="ui button mini primary"><span
+  102                                              class="mdi mdi-plus"></span> Add
+  103                                          new</a>
+  104:                                     <a href="{{route('product.form')}}" class="ui button mini primary"><span
+  105                                          class="mdi mdi-plus"></span> Add
+
+  537                                                                                                  disabled
+  538:                                                                                             @endif class="ui button mini primary text-end d-block ms-auto mt-2">
+  539                                                                                                   <span class="mdi mdi-send"></span> Send</button>
+
+resources\views\request\history.blade.php:
+   99                                  <div class="col-sm-5 mb-2 col-dm-2 col-l-2">
+  100:                                     <a type="button" class="ui button mini primary" data-bs-toggle="modal"
+  101:                                         data-bs-target="#addForm" class="ui button mini primary"><span
+  102                                              class="mdi mdi-plus"></span> Add
+  103                                          new</a>
+  104:                                     <a href="{{route('product.form')}}" class="ui button mini primary"><span
+  105                                          class="mdi mdi-plus"></span> Add
+
+  544                                                                                                  disabled
+  545:                                                                                             @endif class="ui button mini primary text-end d-block ms-auto mt-2">
+  546                                                                                                  <span class="mdi mdi-send"></span> Send</button>
+
+resources\views\request\list.blade.php:
+  103                                  <div class="col-sm-5 mb-2 col-dm-2 col-l-2">
+  104:                                     <a type="button" class="ui button mini primary" data-bs-toggle="modal"
+  105:                                         data-bs-target="#addForm" class="ui button mini primary"><span
+  106                                              class="mdi mdi-plus"></span> Add
+  107                                          new</a>
+  108:                                     <a href="{{route('product.form')}}" class="ui button mini primary"><span
+  109                                          class="mdi mdi-plus"></span> Add
+
+  526                                                                                                  disabled
+  527:                                                                                             @endif class="ui button mini primary text-end d-block ms-auto mt-2">
+  528                                                                                                  <span class="mdi mdi-send"></span> Send</button>
+
+resources\views\request\rejected.blade.php:
+   99                                  <div class="col-sm-5 mb-2 col-dm-2 col-l-2">
+  100:                                     <a type="button" class="ui button mini primary" data-bs-toggle="modal"
+  101:                                         data-bs-target="#addForm" class="ui button mini primary"><span
+  102                                              class="mdi mdi-plus"></span> Add
+  103                                          new</a>
+  104:                                     <a href="{{route('product.form')}}" class="ui button mini primary"><span
+  105                                          class="mdi mdi-plus"></span> Add
+
+  543                                                                                                  disabled
+  544:                                                                                             @endif class="ui button mini primary text-end d-block ms-auto mt-2">
+  545                                                                                                  <span class="mdi mdi-send"></span> Send</button>
+
+resources\views\role\list.blade.php:
+  61                                  <div class="col-sm-5 mb-2 col-dm-2 col-l-2">
+  62:                                     <a type="button" class="ui button mini primary" data-bs-toggle="modal"
+  63:                                         data-bs-target="#addCategory" class="ui button mini primary"><span
+  64                                              class="mdi mdi-plus"></span> {{__('nav.addNew')}}</a>
+
+resources\views\section\list.blade.php:
+  69                                  <div class="col-sm-5 mb-2 col-dm-2 col-l-2">
+  70:                                     <a type="button" class="ui button mini primary" data-bs-toggle="modal"
+  71:                                         data-bs-target="#addForm" class="ui button mini primary"><span
+  72                                              class="mdi mdi-plus"></span> {{__("nav.addNew")}}
+
+resources\views\user\list.blade.php:
+  79                                  <div class="col-sm-5 mb-2 col-dm-2 col-l-2">
+  80:                                     {{-- <a type="button" class="ui button mini primary" data-bs-toggle="modal"
+  81:                                         data-bs-target="#addForm" class="ui button mini primary"><span
+  82                                              class="mdi mdi-plus"></span> Add
+  83                                          new</a> --}}
+  84:                                     <a href="{{url('user/'.$id.'/'. $name. '/add')}}" class="ui button mini primary"><span
+  85                                          class="mdi mdi-plus"></span> {{__('nav.addNew')}}</a>
